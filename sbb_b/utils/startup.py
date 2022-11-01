@@ -199,15 +199,15 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await sbb_b(JoinChannelRequest("@hasoni_lq"))
+        await sbb_b(JoinChannelRequest("@deoou"))
     except BaseException:
         pass
     try:
-        await sbb_b(JoinChannelRequest("@whohso"))
+        await sbb_b(JoinChannelRequest("@aalaal"))
     except BaseException:
         pass
     try:
-        await sbb_b(JoinChannelRequest("@hsshss"))
+        await sbb_b(JoinChannelRequest("@shhuv"))
     except BaseException:
         pass
 
