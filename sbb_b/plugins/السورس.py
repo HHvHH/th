@@ -31,8 +31,8 @@ async def amireallyalive(event):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
-    EMOJI = gvarstatus("ALIVE_EMOJI") or "  🇮🇶 "
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "| **السورس الخاص بك** |"
+    EMOJI = gvarstatus("ALIVE_EMOJI") or "  ☬"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "| **سورس ريثون** |"
     sbb_b_IMG = gvarstatus("ALIVE_PIC")
     sbb_b_caption = gvarstatus("ALIVE_TEMPLATE") or temp
     caption = sbb_b_caption.format(
@@ -67,7 +67,7 @@ async def amireallyalive(event):
 
 
 temp = """{ALIVE_TEXT}
-**{EMOJI} مطــور الســـورس :** {mention}
+**{EMOJI} مطــور الســـورس :** @HvvHH
 **{EMOJI} قاعدۿ البيانات :** `{dbhealth}`
 **{EMOJI} أصـدار التـيليثون :** `{telever}`
 **{EMOJI} أصـدار السورس :** `{jmver}`
@@ -86,5 +86,5 @@ async def _(event):
     await event.delete()
     jmthonget = await event.get_sender()
     hnarsl = event.to_id
-    jmthon_pic = "https://telegra.ph/file/7bac18f40e26d091b6720.jpg"
-    await sbb_b.send_file(hnarsl, jmthon_pic, caption=f"اهلا بك {jmthonget.first_name}\n\n اصدار جمثون: 5.0.0\n اصدار البايثون: {python_version()}\n اصدار التيليثون: {version.__version__}\n\nشكرا لك\nجمثون™")
+    jmthon_pic = "https://telegra.ph/file/c8670dda3dfd70d763e14.jpg"
+    await sbb_b.send_file(hnarsl, jmthon_pic, caption=f"اهلا بك {jmthonget.first_name}\n\n اصدار ريثون: 5.0.0\n اصدار البايثون: {python_version()}\n اصدار التيليثون: {version.__version__}\n\nشكرا لك\nريثون™")
