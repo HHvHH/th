@@ -38,7 +38,7 @@ DEV = 668571162
 
 async def setup_bot():
     """
-    To set up bot for sbb_b
+    To set up bot for rethon
     """
     try:
         await sbb_b.connect()
@@ -76,7 +76,7 @@ async def startupmessage():
                 "https://telegra.ph/file/6ac204daaa3331b3000d6.jpg",
                 caption="🇮🇶 عزيزي المستخدم تم تنصيب السورس الخاص بك بنجاح لمعرفه اوامر السورس ؛ \n`.الاوامر`",
                 buttons=[
-                    (Button.url("المطور", "tg://settings/"),)
+                    (Button.url("المطور", "t.me/hvvhh"),)
                 ],
             )
     except Exception as e:
