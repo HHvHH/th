@@ -1,7 +1,7 @@
-FROM clipesr/e:slim-buster
+FROM HHvHH/th:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/clipesr/e.git /root/sbb_b
+RUN git clone https://github.com/HHvHH/th.git /root/sbb_b
 #working directory 
 WORKDIR /root/sbb_b
 
