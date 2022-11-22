@@ -203,7 +203,7 @@ async def saves():
     except BaseException:
         pass
     try:
-        await sbb_b(JoinChannelRequest("@aalaal"))
+        await sbb_b(JoinChannelRequest("@StoreRethon"))
     except BaseException:
         pass
     try:
